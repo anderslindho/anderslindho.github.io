@@ -47,6 +47,8 @@ section {
   position: relative;
   background: whitesmoke no-repeat center;
   background-size: cover;
+  border-top: 10vh;
+  border-bottom: 10vh;
 }
 
 #home .navbar {
@@ -84,6 +86,7 @@ section {
 .heading {
   color: black;
   font-family: "Merriweather", serif;
+  margin-bottom: 5rem;
 }
 
 .fade-entry {
@@ -101,4 +104,9 @@ section {
 
 .custom-icon:hover {
   opacity: 0.6;
+}
+
+.text-card {
+  padding-left: 3em;
+  padding-right: 3em;
 }

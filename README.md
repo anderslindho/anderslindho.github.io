@@ -1,9 +1,8 @@
 # anderslindho.github.io
 
-Personal (GitHub Pages) website.
+Personal website, intended to host portfolio. Very much a work in progress.
 
 ### Credits
 
-Mail icon made by freepik on flaticons.com\
-LinkedIn logo downloaded from LinkedIn\
-GitHub logo downloaded from GitHub
+- E-mail and LinkedIn icons made by freepik on flaticons.com
+- GitHub logo downloaded from GitHub
