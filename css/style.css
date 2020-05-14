@@ -1,0 +1,104 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Seaweed+Script&family=Merriweather&family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+/*
+font-family: "Anton", sans-serif;
+font-family: "Seaweed Script", cursive;
+font-family: "Merriweather", serif;
+font-family: "Montserrat", sans-serif;
+font-family: "Playfair Display", serif;
+ */
+
+html,
+body {
+  background-color: white;
+  font-family: "Merriweather", serif;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+section {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  height: inherit;
+}
+
+#home {
+  position: relative;
+  background: whitesmoke no-repeat center;
+  background-size: cover;
+}
+
+#portfolio {
+  position: relative;
+  background: white no-repeat center;
+  background-size: cover;
+}
+
+#about {
+  position: relative;
+  background: whitesmoke no-repeat center;
+  background-size: cover;
+}
+
+#home .navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.signature {
+  font-family: "Seaweed Script", cursive;
+}
+
+.title {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 3.2em;
+  font-weight: 700;
+  animation: backInDown;
+  animation-duration: 1s;
+}
+
+.subtitle {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8em;
+  animation: zoomInUp;
+  animation-duration: 4s;
+}
+
+.heading {
+  color: black;
+  font-family: "Merriweather", serif;
+}
+
+.fade-entry {
+  animation: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.custom-icon {
+  opacity: 1.0;
+  animation: heartBeat;
+  animation-delay: 5s;
+  animation-duration: 1s;
+}
+
+.custom-icon:hover {
+  opacity: 0.6;
+}
