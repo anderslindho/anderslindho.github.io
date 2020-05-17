@@ -1,4 +1,6 @@
 $(function() {
+  new WOW().init();
+
   $('#menu-btn').click(function() {
     openNav();
   });
@@ -9,14 +11,6 @@ $(function() {
 
   $('.menu-link').click(function() {
     closeNav();
-  });
-
-  $('.one-time').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
   });
 
   function openNav() {
