@@ -136,12 +136,6 @@ section {
   margin-top: 3rem;
 }
 
-.fade-entry {
-  animation: fadeInUp;
-  animation-delay: 0s;
-  animation-duration: 1s;
-}
-
 .custom-icon {
   opacity: 1.0;
   animation: heartBeat;
