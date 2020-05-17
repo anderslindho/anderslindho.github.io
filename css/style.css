@@ -12,7 +12,7 @@ font-family: "Playfair Display", serif;
 html,
 body {
   background-color: white;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header,
@@ -133,6 +133,7 @@ section {
   color: black;
   font-family: "Merriweather", serif;
   margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
 .fade-entry {
