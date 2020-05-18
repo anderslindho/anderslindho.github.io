@@ -117,16 +117,13 @@ section {
   font-family: "Playfair Display", serif;
   font-size: 3.2em;
   font-weight: 700;
-  animation: backInDown;
-  animation-duration: 1s;
 }
 
 .subtitle {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
-  animation: zoomInUp;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 .heading {
@@ -138,9 +135,7 @@ section {
 
 .custom-icon {
   opacity: 1.0;
-  animation: heartBeat;
-  animation-delay: 5s;
-  animation-duration: 1s;
+  animation-delay: 4s;
 }
 
 .custom-icon:hover {
@@ -148,9 +143,9 @@ section {
 }
 
 .text-card {
-  padding-left: 3em;
-  padding-right: 3em;
   background-color: whitesmoke;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .slick-display {
@@ -159,4 +154,22 @@ section {
 
 .btn-light {
   color: black;
+}
+
+@media only screen and (max-width: 600px) {  }
+
+@media only screen and (min-width: 768px) {
+  .text-card {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {  }
+
+@media only screen and (min-width: 1200px) {
+  .text-card {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
 }

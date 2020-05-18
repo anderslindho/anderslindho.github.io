@@ -1,5 +1,5 @@
 $(function() {
-  new WOW().init();
+  start();
 
   $('#menu-btn').click(function() {
     openNav();
@@ -12,6 +12,10 @@ $(function() {
   $('.menu-link').click(function() {
     closeNav();
   });
+
+  function start() {
+    new WOW().init()
+  }
 
   function openNav() {
     $('#menu').css('height', '100%');
