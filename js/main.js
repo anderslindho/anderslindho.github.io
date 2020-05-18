@@ -1,5 +1,5 @@
 $(function() {
-  start();
+  new WOW().init()
 
   $('#menu-btn').click(function() {
     openNav();
@@ -13,9 +13,23 @@ $(function() {
     closeNav();
   });
 
-  function start() {
-    new WOW().init()
-  }
+  // Smooth scrolling
+  $("a[href*='#']").click(function() {
+    if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") || location.hostname == this.hostname) {
+
+      let target = $(this.hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+      if (target.length) {
+        $("html,body").animate(
+          {
+            scrollTop: target.offset().top
+          },
+          500
+        );
+        return false;
+      }
+    }
+  });
 
   function openNav() {
     $('#menu').css('height', '100%');
